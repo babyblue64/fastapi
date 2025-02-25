@@ -4,7 +4,7 @@ from sqlalchemy import Column, Integer, String, Boolean
 from database import Base
 
 class Item(Base):
-    __tablename__ = "items"
+    __tablename__ = "tablename"
 
     id = Column(Integer, primary_key=True, autoincrement=True)
     task = Column(String, nullable=False)
